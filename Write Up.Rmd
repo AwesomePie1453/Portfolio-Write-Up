@@ -1,0 +1,60 @@
+---
+title: "Write Up"
+author: "AwesomePie1453"
+date: "4/27/2022"
+output: html_document
+---
+
+### Portfolio Write up
+
+This is the culmination of Alexander Connolly's 10 portfolios in Mason's R class (for data scientists!). Did this require a whole new repository? Probably not. But I wanted to anyways. Sit back and enjoy the show as I weave you a tale of 10 different portfolios completed in R. Without further ado... the portfolio pieces
+
+## Portfolio 1
+
+In the very first portfolio, I set off to learn more about a sport league in which I enjoyed watching, the NFL. Using a Tidy Tuesday dataset, NFL stats from 2010-2017, I decided to investigate what made an MVP caliber Quarterback truly an MVP. I found the top four quarterbacks by MVP votes in the 2010 season (Brady, Rodgers, Vick, and Rivers), and filtered the datasets for them. I then graphed them by their various stats, to see if I could see what made them have MVP caliber seasons.
+
+## Portfolio 2
+
+Anyone who watched NFL will tell you that QB, while it is the most important position on the offense, is not the only one. Thus, I wanted to see how the running game was for each of these QBs. I filtered the dataset for the top RB from each team from the last dataset, and graphed their various stats. I also had to create a stat or two using mutate () to make it easier to see some of the impact these RBs had.
+
+## Portfolio 3
+
+This leads us to the third part of my 2010 NFL QB investigation. This time, I simply had to look at the pass catchers. They are critical for the Quarterbacks to thrive. I looked at the top 2 WR/TE per team, and combined their stats using a full join to see how they performed as a unit.
+
+## Portfolio 4 
+
+The thrilling conclusion to my four-part portfolio investigation puts the three together. I orgnaize the graphs in such a way that you can see all of the QB, RB, and then WR/TE stats together to truly see how each team's offense did. The end of this portfolio hints at more investigation into these offenses, but that is still to be continued... maybe if I fail this write up and have to repeat my second year at Wake Forest, my next 10 portfolio pieces will revive this study!
+
+## Portfolio 5
+ 
+Moving past the NFL dataset, my fifth portfolio piece saw me team up with Elayna Seago, attempting to tackle how best to turn in any portfolio pieces from Tidy Tuesday into github. This short yet exhilirating collaboration is sure to help anyone with their very speficic questions regarding Tidy Tuesday and Github.
+
+## Portfolio 6 
+
+If you looked through my first four portfolio pieces, you may have (correctly) made the assumption that I am a sports nerd. But what other kind of nerd may I be? A pokemon nerd? Sadly, yes. This portfolio piece was a quick project I made to show off my R skills to my online Pokemon friends in a tournament that I hosted. Here you can see the kills and death ratios of each pokemon and each trainer in the tournament... because you clearly care.
+
+## Portfolio 7
+
+The following two portfolios coexist in a 2-part series entitled, "The Bracket". Portfolio 7 was the beginning of me attemtping to create a random March Madness bracket simulator on R. Here I played around with several internet packages I discoverd (not as creepy as it seems), such as implied_odds() and implied-probabilities(). This was how I set up the next portfolio piece. 
+
+## Portfolio 8
+
+If you enjoyed Portfolio 7, then you'll love Portfolio 8. I took the information from Portfolio 7 and used it to turn all of the gambling odds on March Madness into implied odds, and (with lots of help from Mason) used these odds to create a function that would randomly create a March Madness bracket for me in 2022. This code helped win my family's bracket challenge, stopping my sister's boyfriend from winning it. Thank goodness. Couldn't let that happen. 
+
+## Portfolio 9
+
+With only two portfolios to go, and plenty of ideas left, I decided to try and do two things that would be useful. First off, I created myself an odds calculator. Now I can give the percentage that I think something will happen, and it will spit out odds for me. "Hey, I bet you I can throw this over the house?" "Oh yeah? Well I think you have a 60% of hitting it, so I will use my model to calcualte the precise odds and then we can bet!!"
+
+Yes, I found a way to become ever more lamer and unsufferable. 
+
+## Portfolio 10
+
+In my final portfollio, I decided to tackle my Dinger Tuesday model. There is a lot that will go into this model, and I expect it to take the first part of the summer to do before I can start using it each Tuesday. There is no rush on this product, I only want it for mid summer when it is humid and balls are flying. Thus, this portfolio contains the beginnings and smatterings of me figuring out cool things about Baseball Reference (the website) and how to webscrape. I was itching to write up this portfolio so I didnt have the pressure to turn anything else in, so I decided to stop there. Everything after this point is just for fun, cause like, coding and sports and stats and gambling are fun! 
+
+### Conclusion
+
+Do I really need a conclusion? I think this portfolio write up speaks for itself. 
+Goodbye and goodnight 
+
+Mike <- drop
+
